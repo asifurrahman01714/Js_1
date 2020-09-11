@@ -1,0 +1,11 @@
+var firstName=prompt("Enter Your First Name");
+var LastName=prompt("Enter Your Last Name");
+var totalName=firstName + LastName;
+var NameLength=totalName.length;
+var totalName_2nd=totalName.charAt(2);
+document.write("My Name Is : " +totalName +"<br/> ");
+document.write("total length of my Name : " + NameLength +"<br/> ");
+document.write("3rd character of my Name : " + totalName_2nd + "<br/>");
+document.write("My Name in uppercase format : " + totalName.toUpperCase() +"<br/>");
+document.write("My Name in Lowecase format : " + totalName.toLocaleLowerCase() +"<br/>");
+document.write("Cut First two character of my Name : " + totalName.slice(0,2));
